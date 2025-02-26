@@ -14,11 +14,14 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    colors: {
-      ...colors, // Keep all default Tailwind colors but remove deprecated ones
-      primary: colors.purple,
-      secondary: colors.pink,
+      colors: {
+        primary: colors.purple,
+        secondary: colors.pink,
+        gray: colors.gray, // Replaces "coolGray"
+        neutral: colors.neutral, // Replaces "trueGray"
+        stone: colors.stone, // Replaces "warmGray"
+        slate: colors.slate, // Replaces "blueGray"
+      },
     },
   },
   plugins: [],
