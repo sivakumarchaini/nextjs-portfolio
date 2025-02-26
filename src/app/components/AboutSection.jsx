@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-4 space-y-2">
-        <li><span className="font-semibold text-primary-400">Master's in Computer Science:</span> University of North Texas (UNT)</li>
-        <li><span className="font-semibold text-primary-400">Bachelor's in Computer Science:</span> Raghu Engineering College</li>
+        <li><span className="font-semibold text-primary-400">Master&apos;s in Computer Science:</span> University of North Texas (UNT)</li>
+        <li><span className="font-semibold text-primary-400">Bachelor&apos;s in Computer Science:</span> Raghu Engineering College</li>
         <li><span className="font-semibold text-primary-400">Relevant Coursework:</span> Software Engineering, SDAI, NLP, Analysis of Computer Algorithms, Machine Learning, Big Data, and Data Science</li>
       </ul>
     ),
@@ -58,7 +58,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg leading-relaxed">
-            🚀 I’m a <span className="text-primary-400 font-semibold">Software Engineer</span> with 
+            🚀 I&apos;m a <span className="text-primary-400 font-semibold">Software Engineer</span> with 
             <span className="text-secondary-400 font-semibold"> 2+ years of experience</span> in 
             <span className="text-primary-400 font-semibold"> Cloud Computing and Infrastructure Automation.</span>  
             At <span className="text-primary-400 font-semibold">Accenture</span>, I managed 
@@ -80,11 +80,11 @@ const AboutSection = () => {
             on projects like <span className="text-primary-400 font-semibold"> predictive analytics and automation tools</span>,  
             leveraging AI for intelligent decision-making.
             <br /><br />
-            💡 I’m passionate about 
+            💡 I&apos;m passionate about 
             <span className="text-primary-400 font-semibold"> building resilient, scalable, and cost-efficient cloud solutions</span> 
             that drive business transformation.
             <br /><br />
-            Let’s build solutions that are not just functional but  
+            Let&apos;s build solutions that are not just functional but  
             <span className="text-primary-400 font-semibold"> transformative—scalable, innovative, and built for real-world impact.</span>
           </p>
           <div className="flex flex-row justify-start mt-8">
