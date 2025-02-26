@@ -101,7 +101,7 @@ const LandingPage = () => {
           >
             <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
               <Image
-                src="/images/my-image.png"
+                src="/images/My-image.png"
                 alt="hero image"
                 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 object-cover"
                 width={400}
