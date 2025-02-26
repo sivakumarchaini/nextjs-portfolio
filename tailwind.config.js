@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require("tailwindcss/colors");
+
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -15,7 +16,7 @@ module.exports = {
       },
     },
     colors: {
-      ...colors,
+      ...colors, // Keep all default Tailwind colors but remove deprecated ones
       primary: colors.purple,
       secondary: colors.pink,
     },
