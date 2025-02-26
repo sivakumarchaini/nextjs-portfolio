@@ -23,8 +23,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-4 space-y-2">
-        <li><span className="font-semibold text-primary-400">Master&apos;s in Computer Science:</span> University of North Texas (UNT)</li>
-        <li><span className="font-semibold text-primary-400">Bachelor&apos;s in Computer Science:</span> Raghu Engineering College</li>
+        <li><span className="font-semibold text-primary-400">Master's in Computer Science:</span> University of North Texas (UNT)</li>
+        <li><span className="font-semibold text-primary-400">Bachelor's in Computer Science:</span> Raghu Engineering College</li>
         <li><span className="font-semibold text-primary-400">Relevant Coursework:</span> Software Engineering, SDAI, NLP, Analysis of Computer Algorithms, Machine Learning, Big Data, and Data Science</li>
       </ul>
     ),

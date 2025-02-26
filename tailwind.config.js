@@ -16,14 +16,9 @@ module.exports = {
       },
     },
     colors: {
-      // Explicitly define colors without deprecated ones
+      ...colors, // Keep all default Tailwind colors but remove deprecated ones
       primary: colors.purple,
       secondary: colors.pink,
-      sky: colors.sky, // Replaces lightBlue
-      stone: colors.stone, // Replaces warmGray
-      neutral: colors.neutral, // Replaces trueGray
-      gray: colors.gray, // Replaces coolGray
-      slate: colors.slate, // Replaces blueGray
     },
   },
   plugins: [],
