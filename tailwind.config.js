@@ -3,9 +3,8 @@ const colors = require("tailwindcss/colors");
 
 module.exports = {
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}", // ✅ Covers all Next.js files
+    "./public/**/*.html", // ✅ Add this if you have static HTML files
   ],
   theme: {
     extend: {
@@ -17,10 +16,11 @@ module.exports = {
       colors: {
         primary: colors.purple,
         secondary: colors.pink,
-        gray: colors.gray, // Replaces "coolGray"
-        neutral: colors.neutral, // Replaces "trueGray"
-        stone: colors.stone, // Replaces "warmGray"
-        slate: colors.slate, // Replaces "blueGray"
+        gray: colors.gray,     
+        neutral: colors.neutral,
+        stone: colors.stone,    
+        slate: colors.slate,    
+        sky: colors.sky,        
       },
     },
   },
