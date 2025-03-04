@@ -7,12 +7,12 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
+    title: "Next.js Portfolio Website",
+    description: "This is my personal portfolio website built using Next.js, featuring a sleek dark mode UI, project filtering, and smooth animations. Deployed on AWS Amplify for high performance and scalability.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/sivakumarchaini/nextjs-portfolio.git",
+    previewUrl: "https://main.ddlmax1fsiich.amplifyapp.com/",
   },
   {
     id: 2,
@@ -80,7 +80,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
+    <section id="projects" className="mb-32">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
