@@ -16,12 +16,12 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    title: "Stock Price Prediction web app",
+    description: "Project 2 descripti",
     image: "/images/projects/2.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/sivakumarchaini/struck-price-preditcion.git",
+    previewUrl: "https://sivakumarchaini-struck-price-preditcion-main-ddyi66.streamlit.app",
   },
   {
     id: 3,
