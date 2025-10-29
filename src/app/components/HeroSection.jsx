@@ -78,7 +78,7 @@ const LandingPage = () => {
                 Hire Me
               </Link>
               <Link
-                href="/Siva Kumar Chaini Data Scientist Resume.pdf"
+                href="/Users/sivakumarchaini/Downloads/nextjs-portfolio/public/Siva Kumar Chaini Data Scientist.pdf"
                 download="SivaKumar_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -94,7 +94,7 @@ const LandingPage = () => {
 
             {/* Social Media Icons Section */}
             <div className="mt-6 flex justify-center sm:justify-start space-x-6">
-              <Link href="https://www.linkedin.com/in/sivakumarchaini/" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/sivakumarchaini27/" target="_blank" rel="noopener noreferrer">
                 <FaLinkedin className="text-3xl text-blue-500 hover:text-blue-600 transition-all duration-300" />
               </Link>
               <Link href="https://github.com/sivakumarchaini" target="_blank" rel="noopener noreferrer">
