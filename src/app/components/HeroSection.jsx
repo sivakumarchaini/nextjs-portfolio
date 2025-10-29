@@ -78,7 +78,7 @@ const LandingPage = () => {
                 Hire Me
               </Link>
               <Link
-                href="/Jake_s_Resume__Anonymous_-2.pdf"
+                href="/Siva Kumar Chaini Data Scientist Resume.pdf"
                 download="SivaKumar_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
