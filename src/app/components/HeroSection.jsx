@@ -58,9 +58,7 @@ const LandingPage = () => {
             <p className="text-4xl sm:text-5xl lg:text-7xl font-extrabold text-[#ADB7BE]">
               <TypeAnimation
                 sequence={[
-                  "Software Engineer", 2000,
-                  "AI/ML Developer", 2000,
-                  "Cloud Engineer", 2000,
+                  "Data Scientist", 2000,
                 ]}
                 wrapper="span"
                 speed={50}
